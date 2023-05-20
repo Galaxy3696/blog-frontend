@@ -1,12 +1,12 @@
 <template>
     <div class="admin-menu">
-        <kila-kila-admin-card />
+        <admin-card />
         <kila-kila-divider />
         <el-menu>
             <!-- 首页 -->
             <el-menu-item index="1" @click="$router.push('/')">
                 <font-awesome-icon
-                    :icon="['fab', 'fort-awesome']"
+                    :icon="['fas', 'fort-awesome']"
                     class="menu-icon"
                 />
                 <span>首页</span>

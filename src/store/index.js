@@ -12,9 +12,9 @@ let adminAbout = {
 	state: {
 		adminInfo: {
 			nickName: "",
-			signature: "",
+			signature: "我是管理员",
 			avatar: require("@/assets/image/avatar.jpg"),
-			githubUrl: "https://github.com/zhiyiYo",
+			githubUrl: "https://github.com/Galaxy3696",
 		},
 		articleCountInfo: {
 			article: 0,
@@ -59,7 +59,7 @@ let adminAbout = {
 let websiteAbout = {
 	namespaced: true,
 	state: {
-		startDate: "2022-01-01"
+		startDate: "2023-05-01"
 	},
 	actions: {},
 	mutations: {},

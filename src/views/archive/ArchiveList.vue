@@ -1,16 +1,16 @@
 <template>
     <div id="archive-list">
         <!-- 页头 -->
-        <kila-kila-header />
+        <header />
 
         <!-- 二次元封面 -->
-        <kila-kila-wife-cover>
+        <wife-cover>
             <h1>归档</h1>
-        </kila-kila-wife-cover>
+        </wife-cover>
 
         <div class="container">
             <!-- 侧边栏 -->
-            <kila-kila-side-bar />
+            <side-bar />
 
             <!-- 归档 -->
             <div class="archive-body">
@@ -54,10 +54,10 @@
         </div>
 
         <!-- 页脚 -->
-        <kila-kila-footer />
+        <footer />
 
         <!-- 回到顶部 -->
-        <kila-kila-back-to-top />
+        <back-to-top />
     </div>
 </template>
 

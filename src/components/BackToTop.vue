@@ -9,7 +9,7 @@
 <script>
 import { ref } from "vue";
 export default {
-    name: "KilaKilaBackToTop",
+    name: "BackToTop",
     setup() {
         let buttonClass = ref("hidden");
 

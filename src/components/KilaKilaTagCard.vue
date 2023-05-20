@@ -1,5 +1,5 @@
 <template>
-    <kila-kila-card :icon="['fas', 'tags']" iconColor="#db669f" title="标签">
+    <card :icon="['fas', 'tags']" iconColor="#db669f" title="标签">
         <div class="tag-clouds">
             <router-link
                 class="tag-item"
@@ -10,7 +10,7 @@
                 >{{ tag.name }}</router-link
             >
         </div>
-    </kila-kila-card>
+    </card>
 </template>
 
 <script>

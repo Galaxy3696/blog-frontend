@@ -1,12 +1,12 @@
 <template>
     <div id="settings">
         <!-- 页头 -->
-        <kila-kila-header />
+        <header />
 
         <!-- 二次元封面 -->
-        <kila-kila-wife-cover>
+        <wife-cover>
             <h1>个人中心</h1>
-        </kila-kila-wife-cover>
+        </wife-cover>
 
         <!-- 个人信息 -->
         <div class="user-info-card">
@@ -170,7 +170,7 @@
         </div>
 
         <!-- 页脚 -->
-        <kila-kila-footer />
+        <footer />
     </div>
 </template>
 

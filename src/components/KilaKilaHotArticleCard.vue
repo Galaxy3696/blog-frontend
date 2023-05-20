@@ -1,5 +1,5 @@
 <template>
-    <kila-kila-card
+    <card
         :icon="['fas', 'fire']"
         iconColor="#f01111"
         title="热门文章"
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-    </kila-kila-card>
+    </card>
 </template>
 
 <script>

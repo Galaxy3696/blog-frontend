@@ -25,7 +25,7 @@
             :with-header="false"
             size="40%"
         >
-            <kila-kila-admin-menu />
+            <admin-menu />
         </el-drawer>
     </header>
 </template>

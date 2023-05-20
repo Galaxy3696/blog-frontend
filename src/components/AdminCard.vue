@@ -75,7 +75,6 @@
 
 <script setup>
 import { mapState } from "../store/map";
-import { computed } from "vue";
 
     name: "AdminCard";
         let { adminInfo, articleCountInfo } = mapState("adminAbout");

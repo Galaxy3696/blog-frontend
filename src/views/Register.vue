@@ -1,6 +1,6 @@
 <template>
     <div class="register">
-        <kila-kila-form-card title="你来啦">
+        <form-card title="你来啦">
             <el-form
                 ref="ruleFormRef"
                 :model="ruleForm"
@@ -93,12 +93,12 @@
 
                 <!-- 注册按钮 -->
                 <el-form-item>
-                    <kila-kila-button @click="submitForm(ruleFormRef)"
-                        >注册</kila-kila-button
+                    <button @click="submitForm(ruleFormRef)"
+                        >注册</button
                     >
                 </el-form-item>
             </el-form>
-        </kila-kila-form-card>
+        </form-card>
     </div>
 </template>
 

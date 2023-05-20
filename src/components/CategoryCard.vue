@@ -1,5 +1,5 @@
 <template>
-    <kila-kila-card :icon="['fas', 'folder']" iconColor="#fcd53f" title="分类">
+    <card :icon="['fas', 'folder']" iconColor="#fcd53f" title="分类">
         <div class="category-list">
             <router-link
                 v-for="category in categoryCounts"
@@ -11,13 +11,13 @@
                 <span class="category-count">{{ category.count }}</span>
             </router-link>
         </div>
-    </kila-kila-card>
+    </card>
 </template>
 
 <script>
 import { mapState } from "../store/map";
 export default {
-    name: "KilaKilaCategoryCard",
+    name: "CategoryCard",
     setup() {
         let { categoryCounts } = mapState("categoryAbout");
         return { categoryCounts };

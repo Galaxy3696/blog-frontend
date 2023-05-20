@@ -2,11 +2,11 @@
     <!-- 侧边栏 -->
     <div id="side-bar">
         <slot>
-            <kila-kila-admin-card />
-            <kila-kila-hot-article-card />
-            <kila-kila-category-card />
-            <kila-kila-tag-card />
-            <kila-kila-archive-card />
+            <admin-card />
+            <hot-article-card />
+            <category-card />
+            <tag-card />
+            <archive-card />
         </slot>
     </div>
 </template>

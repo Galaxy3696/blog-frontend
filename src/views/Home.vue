@@ -1,25 +1,25 @@
 <template>
     <div id="home">
         <!-- 页头 -->
-        <kila-kila-header />
+        <header />
 
         <!-- 封面 -->
-        <kila-kila-cover imgUrl="assets/image/home-cover.jpg" title="✨ My Blog ✨"
-            content="雄关漫道真如铁，而今迈步从头越"></kila-kila-cover>
+        <cover imgUrl="assets/image/home-cover.jpg" title="✨ My Blog ✨"
+            content="雄关漫道真如铁，而今迈步从头越"></cover>
 
         <div class="container">
             <!-- 侧边栏 -->
             <div class="side-content">
-                <kila-kila-admin-card />
-                <kila-kila-hot-article-card />
-                <kila-kila-category-card />
-                <kila-kila-tag-card />
-                <kila-kila-archive-card />
+                <admin-card />
+                <hot-article-card />
+                <category-card />
+                <tag-card />
+                <archive-card />
             </div>
 
             <!-- 发表的文章 -->
             <div class="post-article-list">
-                <kila-kila-post-article-card v-for="(article, index) in postArticles" :key="article.id"
+                <post-article-card v-for="(article, index) in postArticles" :key="article.id"
                     :article="article" :reverse="index % 2 == 1" />
 
                 <!-- 分页 -->
@@ -29,10 +29,10 @@
         </div>
 
         <!-- 页脚 -->
-        <kila-kila-footer :adminName="$store.state.adminAbout.adminInfo.nickName" />
+        <footer :adminName="$store.state.adminAbout.adminInfo.nickName" />
 
         <!-- 滚动到顶部按钮 -->
-        <kila-kila-back-to-top />
+        <back-to-top />
     </div>
 </template>
 

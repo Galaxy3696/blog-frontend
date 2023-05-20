@@ -1,7 +1,7 @@
 <template>
     <div class="admin-menu">
         <admin-card />
-        <kila-kila-divider />
+        <divider />
         <el-menu>
             <!-- 首页 -->
             <el-menu-item index="1" @click="$router.push('/')">
